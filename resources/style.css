@@ -7,6 +7,7 @@ body, html {
     text-align: center;
     font-family: lato;
   }
+
 .headerBar{
     display: flex;
     background-image: linear-gradient(#2e96ad, #f5deb3);
@@ -17,6 +18,8 @@ body, html {
     max-width: 100%;
     margin: auto;
     justify-content: center;
+    box-shadow: black 0px 15px 30px;
+    border-radius: 0px 0px 15px 15px;
   }
 
   nav{
@@ -37,38 +40,57 @@ body, html {
 
   section{
     display: flex;
-    margin: 100px 0px 100px 0px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: row wrap;
+    margin: 100px auto 100px auto;
+    width: 75%;
   }
 
-  .leftSide{
-    width: 50%;
-
+  section .aboutMe{
+    align-self:last baseline;
+    text-align: left;
   }
+
 
   .profileFoto{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    max-width: 250px;
-    height: 100%;
-    margin: auto;
-    float: right;
+    margin: 50px 25px 50px 50px;
+    max-height: 500px;
     border-radius: 15px;
+    box-shadow: black -15px 15px 15px;
   }
 
-  .rightSide{
-    width: 50%;
-  }
 
-  .testBlock{
-    width: 100px;
-    height: 100px;
+  .aboutMe{
+    min-height: 500px;
+    max-width: 50%;
     border: 3px solid black;
+    border-radius: 15px;
+    margin: 50px 50px 50px 25px;
+    background-image: linear-gradient(#2e96ad, #f5deb3);
+    box-shadow: black -15px 15px 15px;
+  }
+
+  h1, h2{
+    padding-left: 15px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
   }
 
   .socialMedia{
     top: 45%;
     right: 25px;
     position: fixed;
+    border: 3px solid black;
   }
   
   #linkDin, #insta, #faceBook{
