@@ -48,6 +48,7 @@
   .profileFoto{
     transition: .3s;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 50px 50px 50px 25px;
     max-height: 500px;
@@ -92,6 +93,11 @@
 
   h2 {
     font-size: 1.5rem;
+  }
+
+  #certificates{
+    display: none;
+    float: right;
   }
 
   #pastButton, #presentButton, #futureButton{
