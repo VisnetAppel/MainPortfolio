@@ -1,59 +1,24 @@
 /* Changes the content of the content block */
 
-const past = false;
-const present = true;
-const future = false;
-const aboutMe = false;
-const PandC = false;
-const contact = false;
-
-
 document.getElementById("aboutMeButton").onclick = function(){
     document.getElementById("contentTitle").innerHTML = "About me";
     document.getElementById("contentFill").innerHTML = "About me stuff";
     document.getElementById("certificates").style = "display: none;";
-    if(!aboutMe){
-        const aboutMe = true;
-        const PandC = false;
-        const contact = false;
-        console.log(`About me is ${aboutMe}`)
-        console.log(`Project and Certificates is ${PandC}`)
-        console.log(`contact is ${contact}`)
-    } else {
-        console.log(`I did not work propperly :'(`)
-    }
+    document.getElementById("projects").style = "display: none;";
 }
 
 document.getElementById("projectsButton").onclick = function() {
     document.getElementById("contentTitle").innerHTML = "Projects & Certificates";
     document.getElementById("contentFill").innerHTML = "";
     document.getElementById("certificates").style = "display: block;";
-    if(!PandC){
-        const aboutMe = false;
-        const PandC = true;
-        const contact = false;
-        console.log(`About me is ${aboutMe}`)
-        console.log(`Project and Certificates is ${PandC}`)
-        console.log(`contact is ${contact}`)
-    } else {
-        console.log(`I did not work propperly :'(`)
-    }
+    document.getElementById("projects").style = "display: block;";
 }
 
 document.getElementById("contactButton").onclick = function() {
     document.getElementById("contentTitle").innerHTML = "Contact page";
     document.getElementById("contentFill").innerHTML = "Contact stuff";
     document.getElementById("certificates").style = "display: none;";
-    if(contact !== true){
-        const aboutMe = false;
-        const PandC = false;
-        const contact = true;
-        console.log(`About me is ${aboutMe}`)
-        console.log(`Project and Certificates is ${PandC}`)
-        console.log(`contact is ${contact}`)
-    } else {
-        console.log(`I did not work propperly :'(`)
-    }
+    document.getElementById("projects").style = "display: none;";
 }
 
 /* Changes the content based on timeline */

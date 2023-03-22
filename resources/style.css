@@ -66,7 +66,7 @@
 
   .contentBox{
     transition: .3s;
-    min-height: 500px;
+    height: 500px;
     min-width: 750px;
     max-width: 50%;
     border: 2px solid black;
@@ -95,9 +95,17 @@
     font-size: 1.5rem;
   }
 
-  #certificates{
+  .contentBox .row{
+    margin: 0;
+  }
+
+  #certificates, #projects{
     display: none;
-    float: right;
+    font-size: 1.5rem;
+  }
+
+  #certificates li:not(:last-child), #projects li:not(:last-child){
+    margin-bottom: 20px;
   }
 
   #pastButton, #presentButton, #futureButton{
