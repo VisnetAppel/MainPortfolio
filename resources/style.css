@@ -45,21 +45,16 @@
   }
 
 
-  .profileFoto{
+  #profileFoto{
     transition: .3s;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 50px 50px 50px 25px;
-    max-height: 500px;
-    border-radius: 15px;
-    border: 2px solid black;
+    height: 500px;
+    max-width: 100%;
   }
   
-  .profileFoto:hover{
+  #profileFoto:hover{
     transition: .3s;
-    margin-right: 55px;
-    margin-left: 20px;
+    margin-right: -55px;
+    margin-left: -20px;
     box-shadow: black 15px 15px 15px;
   }
 
@@ -67,11 +62,10 @@
   .contentBox{
     transition: .3s;
     height: 500px;
-    min-width: 750px;
+    min-width: 100%;
     max-width: 50%;
     border: 2px solid black;
     border-radius: 15px;
-    margin: 50px 25px 50px 50px;
     background-image: linear-gradient(#2e96ad, #f5deb3);
   }
   
@@ -116,7 +110,7 @@
   #past, #present, #future{
     margin-top: 25px;
     margin-bottom: 25px;
-    max-height: 75px;
+    max-width: 100%;
     transition: .3s;
   }
   

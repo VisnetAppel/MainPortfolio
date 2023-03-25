@@ -1,3 +1,4 @@
+
 /* Changes the content of the content block */
 
 document.getElementById("aboutMeButton").onclick = function(){
