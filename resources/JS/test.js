@@ -25,15 +25,15 @@ document.getElementById("contactButton").onclick = function() {
 /* Changes the content based on timeline */
 document.getElementById("pastButton").onclick = function(){
     document.getElementById("year").innerHTML = "2013";
-    document.getElementById("contentFoto").innerHTML = '<img class="profileFoto" id="profileFoto" src="resources/Images/mijnGezichtVroeger.jpg">';
+    document.getElementById("contentFoto").innerHTML = '<img class="object-fit-contain border rounded" id="profileFoto" src="resources/Images/mijnGezichtVroeger.jpg">';
 }
 
 document.getElementById("presentButton").onclick = function(){
     document.getElementById("year").innerHTML = new Date().getFullYear();
-    document.getElementById("contentFoto").innerHTML = '<img class="profileFoto" id="profileFoto" src="resources/Images/mijnGezicht.jpg">';
+    document.getElementById("contentFoto").innerHTML = '<img class="object-fit-contain border rounded" id="profileFoto" src="resources/Images/mijnGezicht.jpg">';
 }
 
 document.getElementById("futureButton").onclick = function(){
     document.getElementById("year").innerHTML = "2024";
-    document.getElementById("contentFoto").innerHTML = '<img class="profileFoto" id="profileFoto" src="resources/Images/mijnGezichtToekomst.jpg">';
+    document.getElementById("contentFoto").innerHTML = '<img class="object-fit-contain border rounded" id="profileFoto" src="resources/Images/mijnGezichtToekomst.jpg">';
 }

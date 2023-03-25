@@ -31,49 +31,31 @@
     text-decoration: underline;
   }
 
-  section{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: row wrap;
-    width: 75%;
-  }
-
-  section .contentBox{
-    text-align: left;
-  }
-
 
   #profileFoto{
     transition: .3s;
+    border: 2px solid black;
     height: 500px;
-    max-width: 100%;
   }
   
   #profileFoto:hover{
     transition: .3s;
-    margin-right: -55px;
-    margin-left: -20px;
-    box-shadow: black 15px 15px 15px;
+    box-shadow: black 0px 15px 15px;
   }
 
 
-  .contentBox{
+  #contentBox{
     transition: .3s;
     height: 500px;
-    min-width: 100%;
-    max-width: 50%;
+    width: 90%;
     border: 2px solid black;
     border-radius: 15px;
     background-image: linear-gradient(#2e96ad, #f5deb3);
   }
   
-  .contentBox:hover{
+  #contentBox:hover{
     transition: .3s;
-    margin-left: 55px;
-    margin-right: 20px;
-    box-shadow: black -15px 15px 15px;
+    box-shadow: black 0px 15px 15px;
   }
 
   h1, h2{
@@ -89,13 +71,13 @@
     font-size: 1.5rem;
   }
 
-  .contentBox .row{
+  #contentBox .row{
     margin: 0;
   }
 
   #certificates, #projects{
     display: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   #certificates li:not(:last-child), #projects li:not(:last-child){

@@ -30,81 +30,129 @@
                 </div>
             </nav>
             </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-4 col-lg-2">
-                        <div class="timeline">
-                            <button id="pastButton"><img src="./resources/Buttons/Past.png" id="past" alt="Past"/></button>
-                            <br>
-                            <button id="presentButton"><img src="./resources/Buttons/Present.png" id="present" alt="Present Time"/></button>
-                            <br>
-                            <button id="futureButton"><img src="./resources/Buttons/Future.png" id="future" alt="Future"/></button>
+            <div class="container-fluid container-xxl">
+                <div class="row align-items-center my-5 g-2">
+                    <div class="col-12 col-xl-2">
+                        <div class="row align-items-end">
+                            <div class="col-4 col-xl-12">
+                                <button id="pastButton"><img src="./resources/Buttons/Past.png" id="past" alt="Past"/></button>
+                            </div>
+                            <div class="col-4 col-xl-12">
+                                <button id="presentButton"><img src="./resources/Buttons/Present.png" id="present" alt="Present Time"/></button>
+                            </div>
+                            <div class="col-4 col-xl-12">
+                                <button id="futureButton"><img src="./resources/Buttons/Future.png" id="future" alt="Future"/></button>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="contentBox overflow-y-auto">
-                            <h1 id="contentTitle">
+                    <div class="col-12 col-xl-6 order-3 d-flex justify-content-center">
+                        <div class="col overflow-y-auto" id="contentBox">
+                            <h1 class="sticky-top" id="contentTitle">
                                 Welcome to my page
                             </h1>
-                            <h2 id="contentFill">
-                                Try pressing a button and the page changes
-                            </h2>
                             <div class="row">
-                                <div class="col">
-                                    <ol id="projects">
-                                        <details closed>
-                                            <a href="resources/Files/Certificates/CSS_Certificate.pdf" target="_blank">CSS Certificate</a>
-                                        </details>
-                                        <details closed>
-                                            <a href="resources/Files/Certificates/CSS_Certificate.pdf" target="_blank">CSS Certificate</a>
-                                        </details>
-                                        <details closed>
-                                            <a href="resources/Files/Certificates/CSS_Certificate.pdf" target="_blank">CSS Certificate</a>
-                                        </details>
-                                        <details closed>
-                                            <a href="resources/Files/Certificates/CSS_Certificate.pdf" target="_blank">CSS Certificate</a>
-                                        </details>
-                                        <details closed>
-                                            <a href="resources/Files/Certificates/CSS_Certificate.pdf" target="_blank">CSS Certificate</a>
-                                        </details>
-                                        <details closed>
-                                            <a href="resources/Files/Certificates/CSS_Certificate.pdf" target="_blank">CSS Certificate</a>
-                                        </details>
-                                        <details closed>
-                                            <a href="resources/Files/Certificates/CSS_Certificate.pdf" target="_blank">CSS Certificate</a>
-                                        </details>
-                                    </ol>
+                                <h2 id="contentFill">
+                                    Try pressing a button and the page changes
+                                </h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                        <ol id="projects">
+                                            <details closed>
+                                                <summary>
+                                                    Project 1
+                                                </summary>
+                                                <a href="resources/Files/Certificates/CSS_Certificate.pdf" target="_blank">CSS Certificate</a>
+                                            </details>
+                                            <details closed>
+                                                <summary>
+                                                    Project 2
+                                                </summary>
+                                                <a href="resources/Files/Certificates/CSS_Certificate.pdf" target="_blank">CSS Certificate</a>
+                                            </details>
+                                            <details closed>
+                                                <summary>
+                                                    Project 3
+                                                </summary>
+                                                <a href="resources/Files/Certificates/CSS_Certificate.pdf" target="_blank">CSS Certificate</a>
+                                            </details>
+                                            <details closed>
+                                                <summary>
+                                                    Project 4
+                                                </summary>
+                                                <a href="resources/Files/Certificates/CSS_Certificate.pdf" target="_blank">CSS Certificate</a>
+                                            </details>
+                                            <details closed>
+                                                <summary>
+                                                    Project 5
+                                                </summary>
+                                                <a href="resources/Files/Certificates/CSS_Certificate.pdf" target="_blank">CSS Certificate</a>
+                                            </details>
+                                            <details closed>
+                                                <summary>
+                                                    Project 6
+                                                </summary>
+                                                <a href="resources/Files/Certificates/CSS_Certificate.pdf" target="_blank">CSS Certificate</a>
+                                            </details>
+                                            <details closed>
+                                                <summary>
+                                                    Project 7
+                                                </summary>
+                                                <a href="resources/Files/Certificates/CSS_Certificate.pdf" target="_blank">CSS Certificate</a>
+                                            </details>
+                                        </ol>
                                 </div>
-                                <div class="col">
+                                <div class="col-6">
                                     <ol id="certificates">
-                                        <li>
+                                        <details closed>
+                                            <summary>
+                                                CSS Certificate
+                                            </summary>
                                             <a href="resources/Files/Certificates/CSS_Certificate.pdf" target="_blank">CSS Certificate</a>
-                                        </li>
-                                        <li>
+                                        </details>
+                                        <details>
+                                            <summary>
+                                                HTML Certificate
+                                            </summary>
                                             <a href="resources/Files/Certificates/HTML_Certificate.pdf" target="_blank">HTML Certificate</a>
-                                        </li>
-                                        <li>
+                                        </details>
+                                        <details>
+                                            <summary>
+                                                Java Certificate
+                                            </summary>
                                             <a href="resources/Files/Certificates/Java_Certificate.pdf" target="_blank">Java Certificate</a>
-                                        </li>
-                                        <li>
+                                        </details>
+                                        <details>
+                                            <summary>
+                                                PHP Certificate
+                                            </summary>
                                             <a href="resources/Files/Certificates/PHP_Certificate.pdf" target="_blank">PHP Certificate</a>
-                                        </li>
-                                        <li>
+                                        </details>
+                                        <details>
+                                            <summary>
+                                                Github Certificate
+                                            </summary>
                                             <a href="resources/Files/Certificates/GitHub_Certificate.pdf" target="_blank">Github Certificate</a>
-                                        </li>
-                                        <li>
+                                        </details>
+                                        <details>
+                                            <summary>
+                                                Command line Certificate
+                                            </summary>
                                             <a href="resources/Files/Certificates/CommandLine_Certificate.pdf" target="_blank">Command line Certificate</a>
-                                        </li>
-                                        <li>
+                                        </details>
+                                        <details>
+                                            <summary>
+                                                Bootstrap Certificate
+                                            </summary>
                                             <a href="resources/Files/Certificates/Bootstrap_Certificate.pdf" target="_blank">Bootstrap Certificate</a>
-                                        </li>
+                                        </detail>
                                     </ol>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-4">
-                        <img class= "object-fit-contain border rounded" id="profileFoto" src="resources/Images/mijnGezicht.jpg">
+                    <div class="col-12 col-xl-4 order-2 order-xl-3 text-center" id="contentFoto">
+                        <img class="rounded" id="profileFoto" src="resources/Images/mijnGezicht.jpg">
                     </div>
                 </div>
             </div>
