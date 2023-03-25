@@ -9,7 +9,7 @@
 
   #headerBar{
     background-image: linear-gradient(#2e96ad, #f5deb3); 
-    height: 100px;
+    height: 100%;
     max-width: 100%;
     box-shadow: black 0px 15px 30px;
     border-radius: 0px 0px 15px 15px;
@@ -129,8 +129,6 @@
 
   #footerBar{
     background-image: linear-gradient(#f5deb3, #2e96ad);
-    height: 100px;
     max-width: 100%;
     box-shadow: black 0px -15px 30px;
-    border-radius: 15px 15px 0px 0px;
   }
