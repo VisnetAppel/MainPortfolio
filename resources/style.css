@@ -31,6 +31,10 @@
     text-decoration: underline;
   }
 
+  #contentFill{
+    margin-left: 10px;
+  }
+
 
   #profileFoto{
     transition: .3s;
@@ -84,9 +88,42 @@
     margin-bottom: 20px;
   }
 
+  .fa-linkedin::before{
+    content: "";
+    background-image: url('../resources/Icons/linkedin.png');
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 32px;
+    width: 28px;
+    margin-left: 10px;
+  }
+
+  .fa-gitHub::before{
+    content: "";
+    background-image: url('../resources/Icons/github.png');
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 32px;
+    width: 28px;
+  }
+
+  .fa-email::before{
+    content: "";
+    background-image: url('../resources/Icons/email.png');
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 32px;
+    width: 28px;
+  }
+
+  #contactIconsRow{
+    display: none;
+  }
+
   #pastButton, #presentButton, #futureButton{
     background: transparent;
     border: none;
+    display: none;
   }
 
   #past, #present, #future{
