@@ -25,7 +25,7 @@ document.getElementById("projectsButton").onclick = function() {
 
 document.getElementById("contactButton").onclick = function() {
     document.getElementById("contentTitle").innerHTML = "Contact page";
-    document.getElementById("contentFill").innerHTML = "";
+    document.getElementById("contentFill").innerHTML = "Some text for the contact page";
     document.getElementById("certificates").style = "display: none;";
     document.getElementById("projects").style = "display: none;";
     document.getElementById("contactIconsRow").style = "display: block;";

@@ -78,7 +78,14 @@
 
   #certificates, #projects{
     display: none;
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 350px;
+    overflow: auto;
     font-size: 1rem;
+    border-radius: 15px;
+    background-image: linear-gradient(#2e96ad, #f5deb3);
+    box-shadow: black 0px 1px 5px;
   }
 
   #certificates li:not(:last-child), #projects li:not(:last-child){
